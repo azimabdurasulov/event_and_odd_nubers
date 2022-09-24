@@ -20,4 +20,5 @@ var_int //= 10
 x4 = var_int % 10 + 1
 counter += x4 % 2
 #Print the number of even digits in the variable "var_int".
-print(counter)
+var_int = counter
+print(var_int)
