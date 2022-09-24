@@ -19,6 +19,5 @@ var_int //= 10
 
 x4 = var_int % 10 + 1
 counter += x4 % 2
-var_int //= 10
 #Print the number of even digits in the variable "var_int".
 print(counter)
